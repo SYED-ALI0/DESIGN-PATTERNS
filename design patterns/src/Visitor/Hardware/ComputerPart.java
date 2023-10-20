@@ -10,5 +10,7 @@ package GOF.Visitor.Hardware;
  * @author fa20-bse-025
  */
 public interface ComputerPart {
-   public void accept(ComputerPartVisitor computerPartVisitor);
+    void accept(ComputerPartVisitor computerPartVisitor);
+
+   
 }

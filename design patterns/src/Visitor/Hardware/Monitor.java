@@ -10,9 +10,8 @@ package GOF.Visitor.Hardware;
  * @author fa20-bse-025
  */
 public class Monitor implements ComputerPart {
-
-   @Override
-   public void accept(ComputerPartVisitor computerPartVisitor) {
-      computerPartVisitor.visit(this);
-   }
+    @Override
+    public void accept(ComputerPartVisitor computerPartVisitor) {
+        computerPartVisitor.visit(this);
+    }
 }
