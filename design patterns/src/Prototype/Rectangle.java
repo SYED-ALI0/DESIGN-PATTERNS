@@ -7,11 +7,10 @@ package Prototype;
 
 /**
  *
- * @author fa20-bse-025
+ * @author FA20-BSE-025
  */
 public class Rectangle extends Shape {
-
-   public Rectangle(){
+    public Rectangle(){
      type = "Rectangle";
    }
 

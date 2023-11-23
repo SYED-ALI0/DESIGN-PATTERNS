@@ -10,8 +10,7 @@ package Prototype;
  * @author fa20-bse-025
  */
 public class Circle extends Shape {
-
-   public Circle(){
+    public Circle(){
      type = "Circle";
    }
 

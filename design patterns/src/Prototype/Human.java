@@ -7,15 +7,15 @@ package Prototype;
 
 /**
  *
- * @author fa20-bse-025
+ * @author FA20-BSE-025
  */
-public class Square extends Shape {
-    public Square(){
-     type = "Square";
-   }
+public class Human extends Shape {
+    public Human() {
+        type = "Human";
+    }
 
-   @Override
-   public void draw() {
-      System.out.println("Inside Square::draw() method.");
-   }
+    @Override
+    public void draw() {
+        System.out.println("Inside Human::draw() method.");
+    }
 }

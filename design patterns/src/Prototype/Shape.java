@@ -9,9 +9,11 @@ package Prototype;
  *
  * @author fa20-bse-025
  */
-public abstract class Shape implements Cloneable {
-   
-   private String id;
+import java.util.Objects;
+
+
+public abstract class Shape implements Cloneable{
+    private String id;
    protected String type;
    
    abstract void draw();
@@ -40,4 +42,8 @@ public abstract class Shape implements Cloneable {
       
       return clone;
    }
+   public boolean equals(Shape a, Shape b) {
+        // Compare shapes based on their type and id
+        return Objects.equals(a.getType(), b.getType()) && Objects.equals(a.getId(), b.getId());
+    }
 }
